@@ -21,6 +21,19 @@ const doubled = nums.map(num => num * 2);
 const filteredNums = nums.filter(num => num > 2);
 
 console.log(filteredNums);
-
 console.log(doubled);
 
+class Car {
+    constructor(make, model, year) {
+        this.make = make;
+        this.model = model;
+        this.year = year;
+    }
+
+    getCarInfo() {
+        console.log("Manufacturer:" + this.make + " Model:" + this.model + " Manufacturing year:" + this.year);
+    }
+}
+
+const audi = new Car("Audi", "A3", 1992);
+audi.getCarInfo();
