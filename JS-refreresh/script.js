@@ -58,3 +58,10 @@ const updatedUser = { ...user, email: "MM@vaasa.fi"};
 
 console.log(updatedUser);
 
+const btn1 = document.getElementById("btn1");    
+const inp1 = document.getElementById('inp1');
+const div1 = document.getElementById('div1');
+btn1.addEventListener('click', () => {
+    const value = inp1.value;
+    div1.innerHTML = value;
+})
