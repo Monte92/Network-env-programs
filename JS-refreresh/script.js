@@ -37,3 +37,24 @@ class Car {
 
 const audi = new Car("Audi", "A3", 1992);
 audi.getCarInfo();
+
+const user = {
+    userName: "Mikko Mallikas",
+    email: "MM@gmail.com",
+    address: {
+        zip: "65100",
+        city: "Vaasa"
+    }
+};
+
+const { userName, email, address: {zip, city} } = user;
+
+console.log(userName);
+console.log(email);
+console.log(city);
+console.log(zip);
+
+const updatedUser = { ...user, email: "MM@vaasa.fi"};
+
+console.log(updatedUser);
+
