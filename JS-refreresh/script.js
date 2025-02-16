@@ -15,4 +15,12 @@ compareNumbers(3, 5);
 compareNumbers(7, 5);
 compareNumbers(3, 3);
 
+const nums = [1, 2, 3, 4, 5];
+
+const doubled = nums.map(num => num * 2);
+const filteredNums = nums.filter(num => num > 2);
+
+console.log(filteredNums);
+
+console.log(doubled);
 
