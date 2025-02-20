@@ -65,3 +65,20 @@ btn1.addEventListener('click', () => {
     const value = inp1.value;
     div1.innerHTML = value;
 })
+
+// Refresher O'Reily lesson script
+
+// Array methods
+
+const colors = ['red', 'blue', 'cyan', 'purple', 'magenta', 'yellow', 'green', 'beige', 'vermillion'];
+
+const index = colors.findIndex((color) => color === 'magenta');
+
+console.log(index);
+
+const upperColors = colors.map((color) => color.toUpperCase());
+
+
+console.log(upperColors);
+
+
