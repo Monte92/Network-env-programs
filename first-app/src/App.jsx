@@ -1,4 +1,5 @@
 import Greeting from "./components/Greetings"
+import ThemeToggle from "./components/ThemeToggle"
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
     <div>
       <p>Hello World</p>
       <Greeting name='Lauri'/>
+      <ThemeToggle />
     </div>
   )
 }
