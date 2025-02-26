@@ -78,7 +78,7 @@ console.log(index);
 
 const upperColors = colors.map((color) => color.toUpperCase());
 
-
+console.log(colors);
 console.log(upperColors);
 
 
