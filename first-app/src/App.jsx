@@ -2,6 +2,7 @@ import Greeting from "./components/Greetings"
 import ThemeToggle from "./components/ThemeToggle"
 import LoginMessage from "./components/LoginMessage"
 import TodoList from "./components/TodoList"
+import Calculator from "./components/Calculator"
 
 
 function App() {
@@ -15,6 +16,7 @@ const activities = ['Study', 'Eat', 'Sleep', 'Walk', 'Read', 'Relax'];
       <ThemeToggle />
       <LoginMessage isLoggedIn={false} />
       <TodoList todos={activities}/>
+      <Calculator />
     </div>
   )
 }
